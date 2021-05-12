@@ -1,0 +1,12 @@
+.card {
+    border: 0;
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-body {
+    border: 1px solid black;
+}
