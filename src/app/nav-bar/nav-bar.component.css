@@ -1,0 +1,8 @@
+.nav-link {
+    color: #000 !important;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-link:hover {
+    color: darkslategrey !important;
+}
