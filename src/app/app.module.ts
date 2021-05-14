@@ -7,10 +7,13 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ArticleComponent } from './article/article.component';
 import { ProfileComponent } from './profile/profile.companent';
-
-
-
-
+import { DesignsComponent } from './designs/designs.component';
+import { DesignDetailComponent } from './design-detail/design-detail.component';
+import { LoggingComponent } from './logging/logging.component';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService } from './dfolder/in-memory-data.service';
 
 @NgModule({
   declarations: [
@@ -19,11 +22,19 @@ import { ProfileComponent } from './profile/profile.companent';
     FooterComponent,
     AboutComponent,
     ArticleComponent,
-    ProfileComponent
+    ProfileComponent,
+    DesignsComponent,
+    DesignDetailComponent,
+    LoggingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    HttpClientInMemoryWebApiModule.forRoot(
+      InMemoryDataService, {dataEncapsulation: false}
+    )
   ],
   providers: [],
   bootstrap: [AppComponent]
