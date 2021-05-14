@@ -1,0 +1,8 @@
+.card {
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.card-img-top {
+    border-radius: 0;
+}

@@ -5,12 +5,12 @@ import { AppComponent } from './app.component';
 import { ArticleComponent } from './article/article.component';
 
 
+
+
 const routes: Routes = [
   { path: 'article', component:ArticleComponent},
   { path: 'about', component: AboutComponent },
   { path: '', component: ArticleComponent }
-
-
 
 ];
 
