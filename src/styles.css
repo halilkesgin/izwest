@@ -3,4 +3,6 @@
 
 body {
     font-family: 'Inconsolata', monospace !important;
+    background-color: #000 !important;
+    color: #fff !important;
 }

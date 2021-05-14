@@ -1,18 +1,27 @@
-<div class="row">
-    <div class="col-4">
-      <div class="card my-2" style="width: 18rem;" *ngFor="let design of designs">
-        <img src="assets/img/{{design.imageUrl}}" class="card-img">
+<div class="container">
+  <div class="row mt-5">
+    <div class="col-md-12">
+      <div class="text-center">
+        <h1>DESIGNS</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-lg-3 " *ngFor="let design of designs">
+      <div class="card my-2">
+        <img src="assets/img/{{design.imageUrl}}" class="card-img-top">
         <div class="card-body">
           <div>
             <h5 class="card-title">
-              <a routerLink='detail/{{design.id}}'>{{design.name}}</a>
+              <a routerLink='design/{{design.id}}'>{{design.name}}</a>
             </h5>
             <h6 class="card-subtitle mb-2 text-muted">
-              {{ design.description}}
+              {{ design.category}}
             </h6>
           </div>
         </div>
       </div>
     </div>
   </div>
-  
+</div>

@@ -1,8 +1,26 @@
 .card {
-    border: 1px solid #000;
+    border: 0;
     border-radius: 0;
+    background-color: transparent !important;
+
 }
 
 .card-img-top {
     border-radius: 0;
+    width: 18rem;
+    height: 20rem;
+}
+
+.card-body {
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 1rem 0rem;
+}
+
+.card-title {
+    font-size: 1.5srem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
 }

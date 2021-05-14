@@ -14,6 +14,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './dfolder/in-memory-data.service';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { InMemoryDataService } from './dfolder/in-memory-data.service';
     ProfileComponent,
     DesignsComponent,
     DesignDetailComponent,
-    LoggingComponent
+    LoggingComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,

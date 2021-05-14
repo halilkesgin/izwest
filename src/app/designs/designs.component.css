@@ -1,0 +1,29 @@
+.card {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent !important;
+
+}
+
+.card-img-top {
+    border-radius: 0;
+}
+
+.card-body {
+    text-transform: capitalize;
+    border: 1px solid black;
+    padding: 1rem 0rem;
+}
+
+.card-title {
+    font-size: 1.5srem;
+}
+
+.card-subtitle {
+    font-size: 1rem;
+}
+
+.card-title a {
+    color: #fff;
+    text-decoration: none;
+}
