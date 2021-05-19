@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Design } from './design';
-import { Designs } from './design.datasource';
 import { Observable, of } from 'rxjs';
-import { LoggingService } from './logging.service';
+import { LoggingService } from '../logging.service';
 import { HttpClient } from '@angular/common/http';
 
 @Injectable({

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { LoggingService } from '../dfolder/logging.service';
+import { LoggingService } from '../logging.service';
 
 @Component({
   selector: 'logging',

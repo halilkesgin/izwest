@@ -1,6 +1,4 @@
-import {
-  Design
-} from "./design";
+import { Design } from "./design";
 
 export const Designs: Design[] = [
   {

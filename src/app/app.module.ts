@@ -13,8 +13,9 @@ import { LoggingComponent } from './logging/logging.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './dfolder/in-memory-data.service';
-import { ProductsComponent } from './products/products.component';
+import { InMemoryDataService } from './in-memory-data.service';
+import { BlogsComponent } from './blogs/blogs.component';
+import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 
 @NgModule({
   declarations: [
@@ -27,16 +28,16 @@ import { ProductsComponent } from './products/products.component';
     DesignsComponent,
     DesignDetailComponent,
     LoggingComponent,
-    ProductsComponent
+    BlogsComponent,
+    BlogDetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, {dataEncapsulation: false}
-    )
+    HttpClientInMemoryWebApiModule.forRoot(InMemoryDataService, {dataEncapsulation: false})
+
   ],
   providers: [],
   bootstrap: [AppComponent]
