@@ -1,9 +1,9 @@
 .nav-link {
-    color: #fff !important;
+    color: #000 !important;
     font-weight: 700;
     cursor: pointer;
 }
 .nav-link:hover {
-    color: #ccc !important;
+    color: rgb(92, 92, 92) !important;
 }
 
