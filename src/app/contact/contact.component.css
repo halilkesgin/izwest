@@ -33,16 +33,20 @@
     border-radius: 0;
     border-top: 0;
 }
+
 .alert-dark {
     background-color: rgba(214, 214, 214, 0.308);
 }
+
 .form-control {
     border: 1px solid #000;
     border-radius: 0;
 }
+
 .form-control-lg {
     border-radius: 0;
 }
+
 .btn {
     border-radius: 0;
 }

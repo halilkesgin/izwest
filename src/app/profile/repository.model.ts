@@ -18,5 +18,4 @@ export class ProfileRepository {
     getProfilesById(id: number): Profile {
         return this.profiles.find(p=>p.id == id);
     }
-
 }

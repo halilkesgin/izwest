@@ -7,6 +7,7 @@ import { DesignService } from '../dfolder/design.service';
   templateUrl: './designs.component.html',
   styleUrls: ['./designs.component.css']
 })
+
 export class DesignsComponent implements OnInit {
 
   designs: Design[] = [];
@@ -25,5 +26,4 @@ export class DesignsComponent implements OnInit {
         this.designLength = designs.length;
       })
   }
-
 }

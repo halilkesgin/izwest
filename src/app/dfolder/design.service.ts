@@ -7,6 +7,7 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
+
 export class DesignService {
   private apiDesignsUrl = 'api/designs';
   constructor(
@@ -24,5 +25,4 @@ export class DesignService {
     this.loggingService.add('DesignService: get design detail by id='+id);
     return this.http.get<Design>(this.apiDesignsUrl+'/'+id);
   }
-
 }

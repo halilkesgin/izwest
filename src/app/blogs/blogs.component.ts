@@ -7,12 +7,13 @@ import { BlogService } from '../bfolder/blog.service';
   templateUrl: './blogs.component.html',
   styleUrls: ['./blogs.component.css']
 })
+
 export class BlogsComponent implements OnInit {
 
   blogs: Blog[] = [];
   blogLength: number;
 
-  constructor(private blogService: BlogService) { }
+  constructor(private blogService: BlogService) {}
 
   ngOnInit(): void {
     this.getBlogs();
@@ -25,5 +26,4 @@ export class BlogsComponent implements OnInit {
         this.blogLength = blogs.length;
       })
   }
-
 }

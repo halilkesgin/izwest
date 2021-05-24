@@ -9,10 +9,10 @@ import { DesignService } from '../dfolder/design.service';
   templateUrl: './design-detail.component.html',
   styleUrls: ['./design-detail.component.css']
 })
+
 export class DesignDetailComponent implements OnInit {
 
   @Input() design: Design;
-
 
   constructor(
     private designService: DesignService,
@@ -29,5 +29,4 @@ export class DesignDetailComponent implements OnInit {
     this.designService.getDesign(id)
       .subscribe(design => this.design = design);
   }
-
 }

@@ -4,13 +4,13 @@ import { Observable } from "rxjs";
 import { LoggingService } from "../logging.service";
 import { Blog } from "./blog";
 
-
 @Injectable({
     providedIn: 'root'
 })
 
 export class BlogService {
     private apiBlogsUrl = 'api/blogs';
+
     constructor(
        private loggingService: LoggingService,
        private http: HttpClient 
@@ -25,5 +25,4 @@ export class BlogService {
         this.loggingService.add('BlogService: get blog detail by id='+id);
         return this.http.get<Blog>(this.apiBlogsUrl+'/'+id);
     }
-
 }

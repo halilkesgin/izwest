@@ -27,5 +27,4 @@ export class BlogDetailComponent implements OnInit {
     this.blogService.getBlog(id)
       .subscribe(blog => this.blog = blog);
   }
-
 }

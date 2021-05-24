@@ -19,12 +19,11 @@ const routes: Routes = [
   { path: 'blogs/blog/:id', component: BlogDetailComponent},
   { path: 'contact', component: ContactComponent},
   { path: '**', component: PageNotFoundComponent }
-
-  
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }

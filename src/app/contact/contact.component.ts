@@ -7,6 +7,7 @@ import { MailValidators } from './mail.validation';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
+
 export class ContactComponent implements OnInit{
 
   contactForm = new FormGroup({
@@ -53,12 +54,8 @@ export class ContactComponent implements OnInit{
     return this.contactForm.get('message');
   }
   
-  ngOnInit():void {
-   
-  }
+  ngOnInit():void {}
  
-
-
   onSubmit(){
     console.log(this.contactForm.value);
   }
@@ -69,6 +66,4 @@ export class ContactComponent implements OnInit{
       surname: 'aslan'
     })
   }
-
-
 }
