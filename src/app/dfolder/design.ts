@@ -7,4 +7,8 @@ export class Design {
     date: string;
     description: string;
     imageUrl: string;
+    designImg1: string;
+    designImg2: string;
+    designImg3: string;
+    designImg4: string;
 }

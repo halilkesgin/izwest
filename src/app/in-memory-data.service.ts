@@ -20,7 +20,11 @@ export class InMemoryDataService implements InMemoryDbService {
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
         velit esse cillum dolore eu fugiat nulla pariatur.`,
-        imageUrl: "keremturmus.jpg"
+        imageUrl: "keremturmus.jpg",
+        designImg1: "design-detail-image-1.jpg",
+        designImg2: "design-detail-image-2.jpg",
+        designImg3: "design-detail-image-3.jpg",
+        designImg4: "design-detail-image-4.jpg"
       },
       {
         id: 2,
@@ -34,7 +38,11 @@ export class InMemoryDataService implements InMemoryDbService {
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
         velit esse cillum dolore eu fugiat nulla pariatur.`,
-        imageUrl: "rmg.jpg"
+        imageUrl: "rmg.jpg",
+        designImg1: "design-detail-image-1.jpg",
+        designImg2: "design-detail-image-2.jpg",
+        designImg3: "design-detail-image-3.jpg",
+        designImg4: "design-detail-image-4.jpg"
       },
       {
         id: 3,
@@ -48,7 +56,11 @@ export class InMemoryDataService implements InMemoryDbService {
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
         velit esse cillum dolore eu fugiat nulla pariatur.`,
-        imageUrl: "okyanus.jpg"
+        imageUrl: "okyanus.jpg",
+        designImg1: "design-detail-image-1.jpg",
+        designImg2: "design-detail-image-2.jpg",
+        designImg3: "design-detail-image-3.jpg",
+        designImg4: "design-detail-image-4.jpg"
       },
       {
         id: 4,
@@ -62,7 +74,11 @@ export class InMemoryDataService implements InMemoryDbService {
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
         velit esse cillum dolore eu fugiat nulla pariatur.`,
-        imageUrl: "coffee-and-more.jpg"
+        imageUrl: "coffee-and-more.jpg",
+        designImg1: "design-detail-image-1.jpg",
+        designImg2: "design-detail-image-2.jpg",
+        designImg3: "design-detail-image-3.jpg",
+        designImg4: "design-detail-image-4.jpg"
       },
       {
         id: 5,
@@ -76,7 +92,11 @@ export class InMemoryDataService implements InMemoryDbService {
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
         velit esse cillum dolore eu fugiat nulla pariatur.`,
-        imageUrl: "dahi-proje.jpg"
+        imageUrl: "dahi-proje.jpg",
+        designImg1: "design-detail-image-1.jpg",
+        designImg2: "design-detail-image-2.jpg",
+        designImg3: "design-detail-image-3.jpg",
+        designImg4: "design-detail-image-4.jpg"
       },
       {
         id: 6,
@@ -90,7 +110,11 @@ export class InMemoryDataService implements InMemoryDbService {
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
         commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
         velit esse cillum dolore eu fugiat nulla pariatur.`,
-        imageUrl: "kare-proje.jpg"
+        imageUrl: "kare-proje.jpg",
+        designImg1: "design-detail-image-1.jpg",
+        designImg2: "design-detail-image-2.jpg",
+        designImg3: "design-detail-image-3.jpg",
+        designImg4: "design-detail-image-4.jpg"
       }
 
     ];

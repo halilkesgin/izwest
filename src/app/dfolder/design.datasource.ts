@@ -13,7 +13,11 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "keremturmus.jpg"
+    imageUrl: "keremturmus.jpg",
+    designImg1: "design-detail-image-1.jpg",
+    designImg2: "design-detail-image-2.jpg",
+    designImg3: "design-detail-image-3.jpg",
+    designImg4: "design-detail-image-4.jpg"
   },
   {
     id: 2,
@@ -27,7 +31,11 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "rmg.jpg"
+    imageUrl: "rmg.jpg",
+    designImg1: "design-detail-image-1.jpg",
+    designImg2: "design-detail-image-2.jpg",
+    designImg3: "design-detail-image-3.jpg",
+    designImg4: "design-detail-image-4.jpg"
   },
   {
     id: 3,
@@ -41,7 +49,12 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "3.jpg"
+    imageUrl: "3.jpg",
+    designImg1: "design-detail-image-1.jpg",
+    designImg2: "design-detail-image-2.jpg",
+    designImg3: "design-detail-image-3.jpg",
+    designImg4: "design-detail-image-4.jpg"
+    
   },
   {
     id: 4,
@@ -55,7 +68,11 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "4.jpg"
+    imageUrl: "4.jpg",
+    designImg1: "design-detail-image-1.jpg",
+    designImg2: "design-detail-image-2.jpg",
+    designImg3: "design-detail-image-3.jpg",
+    designImg4: "design-detail-image-4.jpg"
   },
   {
     id: 5,
@@ -69,7 +86,11 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "5.jpg"
+    imageUrl: "5.jpg",
+    designImg1: "design-detail-image-1.jpg",
+    designImg2: "design-detail-image-2.jpg",
+    designImg3: "design-detail-image-3.jpg",
+    designImg4: "design-detail-image-4.jpg"
   },
   {
     id: 6,
@@ -83,7 +104,11 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "2.jpg"
+    imageUrl: "2.jpg",
+    designImg1: "design-detail-image-1.jpg",
+    designImg2: "design-detail-image-2.jpg",
+    designImg3: "design-detail-image-3.jpg",
+    designImg4: "design-detail-image-4.jpg"
   }
   
 ];
