@@ -13,7 +13,7 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "1.jpg"
+    imageUrl: "keremturmus.jpg"
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ export const Designs: Design[] = [
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
     velit esse cillum dolore eu fugiat nulla pariatur.`,
-    imageUrl: "2.jpg"
+    imageUrl: "rmg.jpg"
   },
   {
     id: 3,

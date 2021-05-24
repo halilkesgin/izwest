@@ -5,9 +5,9 @@ export class SimpleDataSource {
 
     constructor(){
         this.profiles = new Array<Profile>(
-            new Profile(1,"halil kesgin","web developer","1.jpg"),
-            new Profile(2,"ahmet kesgin","web designer","2.jpg"),
-            new Profile(3,"aydan kesgin","full stack developer","3.jpg")
+            new Profile(1,"Jackson Peters","web developer","profile1.jpg"),
+            new Profile(2,"Rebecca Bishop","web designer","profile2.jpg"),
+            new Profile(3,"Grace Moore","full stack developer","profile3.jpg")
         );
     }
     getProfiles(): Profile[]{

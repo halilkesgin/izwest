@@ -1,0 +1,52 @@
+ .social-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer {
+  padding: 7rem 0 0 0;
+}
+
+.footer .footer-site-logo {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.footer .footer-site-logo a {
+  color: #000;
+}
+
+.footer .nav-links {
+  padding: 0;
+  margin: 0;
+}
+
+.footer .nav-links li {
+  display: inline-block;
+}
+
+.footer .nav-links li a {
+  padding: 10px;
+  color: #000;
+}
+
+
+.footer .social h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
+
+.footer .social ul li {
+  display: inline-block;
+}
+
+.footer .social ul li a {
+  display: inline-block;
+  padding: 10px;
+}
+
+.footer .copyright {
+  color: #000;
+} 
