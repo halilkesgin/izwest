@@ -1,12 +1,6 @@
 body{
   background-color: #000;
 }
-
-section {
-  margin-top: 9.5rem !important;
-  margin-bottom: 6.5rem !important;
-}
-
 .carousel-item {
   height: 94vh;
   min-height: 350px;

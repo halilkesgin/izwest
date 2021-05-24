@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { ArticleComponent } from './article/article.component';
+import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.companent';
 import { DesignsComponent } from './designs/designs.component';
 import { DesignDetailComponent } from './design-detail/design-detail.component';
@@ -25,7 +25,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     NavBarComponent,
     FooterComponent,
     AboutComponent,
-    ArticleComponent,
+    HomeComponent,
     ProfileComponent,
     DesignsComponent,
     DesignDetailComponent,
