@@ -7,6 +7,7 @@ import { DesignsComponent } from './designs/designs.component';
 import { BlogsComponent } from './blogs/blogs.component';
 import { BlogDetailComponent } from './blog-detail/blog-detail.component';
 import { ContactComponent } from './contact/contact.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/article', pathMatch: 'full'},
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'designs/design/:id', component: DesignDetailComponent},
   { path: 'blogs', component: BlogsComponent},
   { path: 'blogs/blog/:id', component: BlogDetailComponent},
-  { path: 'contact', component: ContactComponent}
+  { path: 'contact', component: ContactComponent},
+  { path: '**', component: PageNotFoundComponent }
 
   
 ];

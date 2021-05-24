@@ -1,0 +1,11 @@
+.page-wrap {
+    margin-top: -2rem;
+    min-height: 94vh;
+}
+.nolink {
+    text-decoration: none;
+    color: #000;
+}
+.font-weight-bold {
+    font-weight: 700;
+}
